@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 body{
     font-family: Arial, Helvetica, sans-serif
 }
@@ -130,6 +131,67 @@ footer p{
     margin-bottom: 30px;
 }
 
+/* ------------------- CONTACTO ------------------------ */
+
+form{
+
+}
+.contacto{
+    background: url('http://4.bp.blogspot.com/-UJZEEKJS8Mk/VGGdQgDS5QI/AAAAAAAAALE/E3pi830T0NM/s1600/149-photos-of-dogs-of-various-breeds.jpg');
+    background-size: 100%;
+}
+input{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0;
+    float: left;
+    display: inline;
+    border-radius: 5px;
+}
+input[type=submit]{
+    margin: 15px 20%;
+    background: #6dccaa;
+    border-radius: 20px;
+    border:none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 60%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    margin: 15px 18%;
+    background: #6dccbb;
+    width: 64%;
+    
+}
+label{
+    color:black;
+    font-size: 17px;
+    width: 100%;
+    margin: 2px 0;
+    display: inline;
+    float: left;
+}
+.contacto h2{
+    text-align: center;
+    font-size: 39px;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    float: left;
+    margin: 15px 0;
+}
+.contacto form{
+    background: white;
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 30px 0;
+    padding: 15px;
+
+}
 @media(max-width:960px){
     section{
         width: 100%;
