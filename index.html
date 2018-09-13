@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+
+
+    <link rel="stylesheet" href="libs/lightbox2-master/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+     
     <header class="row">
+        
         <div class="col-lg-12">
             <nav>
                 <img src="img/logo.png" alt="Logo de mis perris">
@@ -23,7 +32,34 @@
                 
             </nav>
             <div class="banner">
-                <img src="img/perro.png" alt="Un perro">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/adoptados/Apolo.jpg" alt="Un perro">
+                            <article>
+                                <h3>Este es el mejor perro</h3>
+                                <p>Desde que adopte este perro no tengo otro perro</p>
+                                <h4>- Juan</h4>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <img src="img/adoptados/Duque.jpg" alt="Un perro">
+                            <article>
+                                <h3>Este es el mejor perro</h3>
+                                <p>Desde que adopte este perro no tengo otro perro</p>
+                                <h4>- Juan</h4>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <img src="img/adoptados/Tom.jpg" alt="Un perro">
+                            <article>
+                                <h3>Este es el mejor perro</h3>
+                                <p>Desde que adopte este perro no tengo otro perro</p>
+                                <h4>- Juan</h4>
+                            </article>
+                        </div>
+                       
+                    </div>
+
             </div>
         
             <div class="informacion">
@@ -38,6 +74,7 @@
             </div>
         </div>
     </header>
+
     <div class="row info">
         <div class="texto_derecha col-lg-6">
             <h1>RESCATE</h1>
@@ -56,9 +93,40 @@
             <a href="campañas.html">CAMPAÑAS</a>
         </div>
     </div>
-   
+   <div class="row galeria">
+       <div class="col-lg-4 col-xs-12">
+           <a href="img/rescatados/Bigotes.jpg" data-lightbox="Bigotes" data-title="Perro Bigotes">
+                <img src="img/rescatados/Bigotes.jpg" alt="Bigotes" >
+            </a>
+            <a href="img/rescatados/Maya.jpg" data-lightbox="Maya" data-title="Perra Maya">
+                <img src="img/rescatados/Maya.jpg" alt="Maya">
+            </a>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <a href="img/rescatados/Maya.jpg" data-lightbox="Luna" data-title="Perra Luna">
+                <img src="img/rescatados/Luna.jpg" alt="Luna">
+            </a>
+            <a href="img/rescatados/Chocolate.jpg" data-lightbox="Chocolate" data-title="Perro Chocolate">
+                <img src="img/rescatados/Chocolate.jpg" alt="Chocolate">
+            </a>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <a href="img/rescatados/Oso.jpg" data-lightbox="Oso" data-title="Perro Oso">
+                <img src="img/rescatados/Oso.jpg" alt="Oso">
+            </a>
+            <a href="img/rescatados/Oso.jpg" data-lightbox="Pexel" data-title="Perro Pexel">
+                <img src="img/rescatados/Pexel.jpg" alt="Pexel">
+            </a>
+        </div>
+   </div>
     <footer>
         <p>Desarrollo web y mobile</p>
     </footer>
+
+    <!--   Librerias  -->
+    <script src="libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!-- <script src="libs/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 </html>

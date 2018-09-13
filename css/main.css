@@ -35,11 +35,57 @@ nav a{
     float: left;
 }
 
-.banner img{
-    width: 63%;
-    display: inline-block;
-    margin: 30px auto;
+.banner .owl-carousel .item{
+  position: relative;
+  width: 100%;
 }
+.banner .owl-carousel .item img{
+    width: 100%;
+  }
+.banner .owl-carousel article{
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding-left: 100px;
+    background: rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
+}
+
+.galeria{
+    margin: 50px 0;
+}
+.galeria a{
+    width: 100%;
+}
+.galeria img{
+    width: 95%;
+    margin: 0 5%;
+    margin-bottom: 10px;
+    filter: contrast(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.galeria img:hover{
+    filter: contrast(70%);
+}
+@media(max-width:768px){
+    .banner .owl-carousel article{
+        padding-left: 20px;
+    }
+    .banner .owl-carousel article h3{
+        font-size: 14px;
+    }
+    .banner .owl-carousel article p{
+        font-size: 10px;
+    }
+    .banner .owl-carousel article h4{
+        font-size: 12px;
+    }
+}
+
+
 
 .informacion{
     width: 100%;
@@ -140,13 +186,17 @@ form{
     background: url('http://4.bp.blogspot.com/-UJZEEKJS8Mk/VGGdQgDS5QI/AAAAAAAAALE/E3pi830T0NM/s1600/149-photos-of-dogs-of-various-breeds.jpg');
     background-size: 100%;
 }
-input{
+input, select{
     width: 100%;
-    padding: 5px 0px;
+    padding: 7.5px 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
     margin: 10px 0;
     float: left;
     display: inline;
-    border-radius: 5px;
+    background: #e2e2e2;
+    border: none;
+
 }
 input[type=submit]{
     margin: 15px 20%;
@@ -165,7 +215,7 @@ input[type=submit]:hover{
     margin: 15px 18%;
     background: #6dccbb;
     width: 64%;
-    
+
 }
 label{
     color:black;
@@ -177,16 +227,18 @@ label{
 }
 .contacto h2{
     text-align: center;
-    font-size: 39px;
+    font-size: 32px;
     width: 100%;
-    font-family: 'Lobster', cursive;
     float: left;
     margin: 15px 0;
 }
 .contacto form{
     background: white;
     float: left;
-    border: 1px solid black;
+    border: 1px solid rgba(128,128,128,0.5);
+    -webkit-box-shadow: 11px 11px 10px 0px rgba(128,128,128,0.5);
+    -moz-box-shadow: 11px 11px 10px 0px rgba(128,128,128,0.5);
+    box-shadow: 11px 11px 10px 0px rgba(128,128,128,0.5);
     border-radius: 15px;
     margin: 30px 0;
     padding: 15px;

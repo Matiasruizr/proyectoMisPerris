@@ -75,79 +75,33 @@
             </div>
         </div>
     </header>
-    <div class="row contacto">
-        <div class="col-lg-offset-4 col-lg-4">
-         
-           <form action="enviar" method="post">
-                <h2>Contactanos!</h2>
-            
-            <label for="email">Correo electronico :</label>
-            <input type="email" name="email" id="email" required placeholder="nombre@gmail.com">
-        
-            <label for="rut">Rut :</label>
-            <input type="text" id="rut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
-        
-            <label for="txtNombreCompleto">Nombre Completo :</label>
-            <input type="text" name="text" id="txtNombreCompleto" pattern="[a-z]+" required placeholder="Ingrese nombre completo">
-            
-            <label for="fecha">Fecha Nacimiento :</label>
-            <input type="date" name="date" id="">
-        
-            <label for="telefono">Telefono :</label>
-            <input type="number" name="number" required minlength="12" placeholder="+569">
-        
-        
-            <label for="Region">Region :</label>
-            <Select name="select " id="">
-                <option value="ta">Tarapacá</option>
-                <option value="an">Antofagasta</option>
-                <option value="at">Atacama</option>
-                <option value="co">Coquimbo</option>
-                <option value="va">Valparaiso</option>
-                <option value="oh">O'Higgins</option>
-                <option value="ma">Maule</option>
-                <option value="bi">Biobío</option>
-                <option value="la">La Araucanía</option>
-                <option value="lo">Los Ríos</option>
-                <option value="los">Los Lagos</option>
-                <option value="ay">Aysén</option>
-                <option value="mag">Magallanes y Antártica</option>
-                <option value="ari">Arica y Parinacota</option>
-                <option value="re">Region Metropolitana</option>
-            </Select>
-            
-                <label for="Ciudad">Ciudad:</label>
-                <Select name="select">
-                    <option value="sa">Santiago</option>
-                    <option value="co">Concepción</option>
-                    <option value="la">La Serena</option>
-                    <option value="va">Valdivia</option>
-                    <option value="te">Temuco</option>
-                    <option value="pu">Puerto Montt</option>
-                    <option value="ta">Talca</option>
-                    <option value="pun">Punta Arenas</option>
-                </Select>
-            
-            
-                <label for="Vivienda">Tipo de Vivienda :</label>
-                <select name="select" id="">
-                    <option value="pg">Casa con patio grande</option>
-                    <option value="pc">Casa con patio chico</option>
-                    <option value="sp">Casa sin patio</option>
-                    <option value="dp">Departamento</option>
-                </select>
-               <input type="submit">
-           </form>
+
+    <div class="row info">
+        <div class="texto_derecha col-lg-6">
+            <h1>RESCATE</h1>
+            <h2>ETAPA UNO</h2>
+            <hr>
+            <p>Rescatamos perros en situación de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles un hogar.</p>
+            <br>
+            <img src="img/rescate.jpg" alt="Perro negro">
+        </div>
+        <div class="texto_izquierda col-lg-6">
+            <img src="img/crowfunding.jpg" alt="Tazon de comida de perro">
+            <h1>CROWDFUNDING</h1>
+            <h2>FINANCIAMIENTO</h2>
+            <hr>
+            <p>Sigue nuestras redes sociales para informarte acerca de las diversas campaañas y actividades que realizamos para obtener financiamiento para seguir ayudando.</p>
+            <a href="campañas.html">CAMPAÑAS</a>
         </div>
     </div>
    
     <footer>
         <p>Desarrollo web y mobile</p>
     </footer>
-    <!--   Librerias  -->
-    <script src="libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-    <!-- <script src="libs/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script> -->
-    <script src="js/script.js"></script>
+       <!--   Librerias  -->
+       <script src="libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+       <!-- <script src="libs/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script> -->
+       <script src="js/script.js"></script>
 </body>
 </html>
